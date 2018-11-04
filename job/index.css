@@ -6,7 +6,7 @@
     height: 40px;
     width: 100%;
     z-index: 1000;
-    background-color: rgb(242, 243, 201)；
+    background-color: rgb(221, 223, 117)；
     /* 设置背景颜色 */
     }
     
@@ -182,9 +182,7 @@
     .normalColor{
         background-color:rgba(0,0,0,0.5);
     }
-
-
-
+    
 
 
 
@@ -237,12 +235,12 @@
         margin-top: 10px;
         box-shadow: 0 0 1px #e0e0e0;
     }
-    .hm_product>.header_box>.product_box_tit{
+    .hm_product>.product_box>.product_box_tit{
         height: 32px;
         line-height: 32px;
         border-bottom: 1px solid #e0e0e0;
     }
-    .hm_product>.header_box>.product_box_tit.no_border{
+    .hm_product>.product_box>.product_box_tit.no_border{
         border-bottom: none;
     }
     .hm_product>.product_box>.product_box_tit>h3{
@@ -262,9 +260,9 @@
         background:#d8505c;
     }
     /* //掌上秒杀 second kill */
-    .hm_sk{ }
+    .hm_sk{  }
     .hm_sk .sk_icon{
-        background: url("../商城页面1/images/01.jpg")no-repeat;
+        background: url("img/01.jpg")no-repeat;
         background-size: 16px 20px;
         width: 16px;
         height: 20px;
@@ -281,7 +279,7 @@
         margin-top: 8px;
     }
 
-    .hm_sk .sk_name>span{
+    .hm_sk .sk_time>span{
         float: left;
         width: 15px;
         height: 15px;
@@ -293,14 +291,17 @@
     }
     .hm_sk .sk_time>span:nth-child(3n){
         background: #fff;
-        color: #fff;
+        color: #333;
         width: 5px;
 
     }
+
+
+
     .hm_sk .product_box_con>ul{
         width: 100%;
         font-size: 12px;
-        padding: 10px 0;
+        /* padding: 10px 0; */
     }
     .hm_sk .product_box_con>ul>li{
         width: 33.333%;
@@ -317,6 +318,7 @@
     }
     .hm_sk .product_box_con>ul>li>a>img{
         width: 64%;
+        
         display: block;
         margin: 0 auto;
     }
@@ -329,15 +331,21 @@
         color: #666;
         padding-top:5px;
     }
+
+
+
+
     /* 组合样式 */
+  
     .w_50{
-        widows: 50%;
+        width: 50%;
         display: block;
     }
     .w_50>img{
         display: block;
         width: 100%;
     }
+   
     .b_left{
         border-left: 1px solid #e0e0e0;
     }

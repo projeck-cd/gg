@@ -30,6 +30,7 @@ function downTime(){
 }
 
 
+
 // 获取一组带图像的超链接
 var imagesA = document.getElementById("images").children;
 //获取一组li文本
@@ -130,3 +131,5 @@ function rightImgGo(){
     rightImg();
     changeImg();
 }
+
+
